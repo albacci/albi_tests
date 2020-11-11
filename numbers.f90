@@ -4,6 +4,7 @@ program numbers
  integer, parameter :: n = 100
  integer :: i,isum,m
  real :: c(n)
+ !ho aggiunto un commento
 
  m = n
  isum = 0
