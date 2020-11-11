@@ -1,7 +1,7 @@
 program numbers
  use files
  implicit none
- integer, parameter :: n = 100
+ integer, parameter :: n = 100,a
  integer :: i,isum,m
  real :: c(n)
  !ho aggiunto un commento
@@ -16,7 +16,6 @@ program numbers
     isum = isum + i
     !print*,i
  enddo
- !omp end parallel do
 
  print*,' sum of numbers = ',isum
  call write_array_to_file(c)
