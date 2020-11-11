@@ -5,6 +5,7 @@ program numbers
  integer :: i,isum,m
  real :: c(n)
  !ho aggiunto un commento
+ !ho aggiunto un secondo commento
 
  m = n
  isum = 0
